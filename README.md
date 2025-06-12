@@ -5,9 +5,7 @@ A modern KitKat landing page built for Intern Task One #SkillCraftTechnology. Fe
 A modern landing page design inspired by KitKat branding.
 
 ## 🔥 Features
-- Custom cursor and particles
-- Scroll animations
-- Vintage wrapper background
+ill update it later.
 
 ## 📸 Screenshot
 

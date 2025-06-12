@@ -1,0 +1,147 @@
+/* Hero section css */
+.hero {
+    width: 100%;
+    height: 600px;
+
+    background-image: url("kitkatcopy_paper.png");
+
+}
+
+.blr-hero1 {
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    filter: blur(200px);
+    z-index: 1;
+}
+
+.hro-cont {
+    width: 1100px;
+    height: 500px;
+    background-color: transparent;
+    color: white;
+    margin-left: 60px;
+    position: relative;
+    top: 60px;
+
+}
+
+.interactive-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    z-index: 9999;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 40;
+}
+
+.particle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.main-img-hro {
+    position: absolute;
+    top: 76px;
+    left: 640px;
+    background-color: transparent;
+    width: 500px;
+    height: 400px;
+    transform: rotate(45deg);
+
+}
+
+.main-img-hro2 {
+    position: absolute;
+    top: 310px;
+    left: 1280px;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-30deg);
+    animation: float5 3s infinite;
+
+}
+
+#m-h-img2 {
+    width: 280px;
+    height: 280px;
+    background-color: transparent;
+}
+
+.tk-b-txt {
+    color: rgb(57, 5, 5);
+    font-size: 64px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+
+.exp-cont {
+    width: 200px;
+    height: 60px;
+    background-color: red;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in;
+    animation: float4 2s infinite;
+    /* z-index:20; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.exp-cont:hover {
+    background-color: rgb(248, 221, 221);
+    margin-top: 76px;
+    color: rgb(67, 3, 3);
+    border: 1px solid rgb(95, 2, 2);
+
+
+
+}
+
+.tk-b-txt2 {
+    color: red;
+    font-size: 84px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    /* line-height:50px; */
+    display: flex;
+    align-items: center;
+
+}
+
+.tk-b-txt3 {
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+
+}

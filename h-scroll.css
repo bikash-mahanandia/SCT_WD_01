@@ -1,0 +1,66 @@
+/* 
+things added */
+    .horizontal-wrapper {
+      position: relative;
+    }
+
+    .horizontal-scroll-section {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: hidden;
+      /* background-color:rgb(0, 0, 0); */
+      background-image: url("papaer-2.png");
+      background-size:contain;
+      
+    }
+
+    .cards-container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      transition: transform 0.5s linear;
+    }
+
+    .card {
+      width: 300px;
+      height: 400px;
+      margin: 0 30px;
+      border-radius: 20px;
+      flex-shrink: 0;
+      background-color: blue;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      transition: transform 0.4s ease-in, opacity 0.4s ease-out;
+    }
+
+    .card:nth-child(1) { background-image: url("k-list/pic1.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(2) { background-image: url("k-list/pic2.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(3) { background-image: url("k-list/pic3.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(4) { background-image: url("k-list/pic4.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(5) { background-image: url("k-list/pic5.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(6) { background-image: url("k-list/pic6.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(7) { background-image: url("k-list/pic7.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(8) { background-image: url("k-list/pic8.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(9) { background-image: url("k-list/pic9.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(10) { background-image: url("k-list/pic10.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(11) { background-image: url("k-list/pic11.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(12) { background-image: url("k-list/pic12.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(13) { background-image: url("k-list/pic13.jpg"); background-size: cover; background-repeat: no-repeat; }
+    .card:nth-child(14) { background-image: url("k-list/pic14.jpg"); background-size: cover; background-repeat: no-repeat; }
+
+    .scroll-space {
+      height: 0px; /* ✅ Top space removed */
+    }
+
+   
+

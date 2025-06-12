@@ -1,0 +1,527 @@
+.brand {
+    width: 100%;
+    height: 100vh;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+
+}
+
+.brand2 {
+    width: 95%;
+    height: 90vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    filter: blur(0px);
+    border: 1px solid rgb(22, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 700px;
+    left: 0;
+    filter: blur(60px);
+    animation-name: bluring;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+
+
+}
+
+.blur1 {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 720px;
+    left: 1200px;
+    filter: blur(60px);
+    animation-name: bluring;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+
+
+}
+
+.blur2 {
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1100px;
+    left: 60px;
+    filter: blur(60px);
+    animation-name: bluring;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+
+
+}
+
+.whiteblr {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 111, 0);
+    position: absolute;
+    top: 730px;
+    left: 400px;
+    filter: blur(80px)
+}
+
+#cont1 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#cont2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(23, 2, 2);
+
+}
+
+.txt {
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    padding-top: 6px;
+
+
+}
+
+#enjoy {
+    color: rgb(255, 234, 0);
+    font-weight: 900;
+}
+
+#our {
+    font-size: 22px;
+    line-height: 0;
+    padding-bottom: 10px;
+}
+
+#best {
+    color: rgb(0, 255, 0);
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(17, 182, 2);
+    font-size: 30px;
+
+}
+
+#choco {
+    color: brown;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.ts {
+    font-size: 54px;
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgb(255, 0, 0);
+    font-weight: 900;
+
+}
+
+#ts1 {
+    font-size: 54px;
+    color: red;
+    animation-name: break;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+}
+
+.txt2 {
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    line-height: 1;
+
+}
+
+#desc {
+    font-size: 14px;
+    color: rgb(184, 172, 172);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 110px;
+    height: 38px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: 110px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    justify-content: center;
+    padding-top: 9px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-family: "Inconsolata", monospace;
+    border: 1px solid rgb(255, 179, 0);
+    text-shadow: 1px 1px 2px rgb(45, 45, 45);
+
+
+}
+
+.btn:before {
+    content: "";
+    height: 60px;
+    width: 20px;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0 0 10px #fff;
+    filter: blur(14px);
+    opacity: 0.9;
+    top: -10px;
+    left: -20px;
+    transition: 0.8s;
+    transform: rotate(-20deg) translateX(-10px);
+    overflow: hidden;
+
+}
+
+.btn:hover:before {
+    transform: rotate(-20deg) translate(130px, 50px);
+
+
+}
+
+.btn:hover {
+    font-weight: 800;
+}
+
+.bg-deco {
+    position: absolute;
+    margin-left: 30px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 0, 0);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 2px solid rgb(117, 86, 86);
+    transform: rotate(25deg);
+    /* filter:blur(20px); */
+    overflow: hidden;
+    animation-name: rotekit;
+    animation-timeline: view();
+    scroll-behavior: smooth;
+    filter: drop-shadow(8px 8px 10px #000000);
+
+}
+
+#cone-kitkat {
+    width: 520px;
+    transform: rotate(-20deg);
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.solidobj {
+
+    left: 910px;
+    position: absolute;
+    background-color: transparent;
+    top: 240px;
+
+    animation: float1 3s ease-in-out infinite;
+
+
+
+}
+
+#sdobj-mg {
+    width: 600px;
+
+
+}
+
+.solidobj2 {
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    position: absolute;
+    top: 320px;
+    left: 1100px;
+    transform: rotate(-40deg);
+    animation: float2 3.2s ease-in-out infinite;
+}
+
+.solidobj3 {
+    width: 100px;
+    height: 300px;
+    background-color: transparent;
+    position: absolute;
+    top: 420px;
+    left: 1060px;
+    transform: rotate(-40deg);
+    animation: float3 3.2s ease-in-out infinite;
+    z-index: 0;
+
+}
+
+#a {
+    width: 600px;
+}
+
+#b {
+    width: 340px;
+}
+
+/* #a:hover{
+ filter:grayscale(1);
+ background-color:blue;
+} */
+.blurelement1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 157, 157);
+    filter: blur(60px);
+    top: 500px;
+    left: 1300px;
+    position: absolute;
+    overflow: hidden;
+    animation-name: blure1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.chocoelmt {
+    /* width:100px;
+    height:300px; */
+    background-color: transparent;
+    position: absolute;
+    top: 1960px;
+    left: -160px;
+    z-index: 10;
+    transform: rotate(45deg);
+    animation-name: ktmv;
+    animation-timeline: view();
+
+
+}
+
+#mvkitkat {
+    width: 420px;
+    left: 0;
+    animation: float1 3s ease-in-out infinite;
+
+
+}
+
+.kitkat-txt1 {
+    width: 1300px;
+    height: 180px;
+   
+    position: absolute;
+    top: 2100px;
+    left: 180px;
+    z-index: 11;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+
+
+
+}
+
+
+.bglayes {
+    background-color: red;
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 2100px;
+    filter: blur(80px);
+}
+
+.hv-break-txt-cont {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(218, 136, 136);
+    position: absolute;
+    top: 2800px;
+    left: 200px;
+    filter: blur(200px);
+    z-index: 1;
+}
+
+.hv-break-txt {
+    width: 1000px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    position: absolute;
+    top: 2800px;
+    left: 300px;
+    font-size: 64px;
+    font-weight: bold;
+
+
+    transition: transform 0.3s ease-out;
+    text-align: center;
+    will-change: transform;
+}
+
+.kitkat-brek-img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: transparent;
+    top: 2970px;
+    left: 1280px;
+    transform: rotate(-15deg);
+    z-index: 2;
+    animation-name: kitmv;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#kit-break-mg {
+    width: 260px;
+    z-index: 2;
+    animation: float1 3s ease-in-out infinite;
+}
+
+.overlay-marq-cont {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(184, 0, 0);
+    color: white;
+    position: absolute;
+    top: 2956px;
+    left: 0px;
+    z-index: 1;
+    padding-top: 16px;
+
+
+}
+
+marquee {
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.c-pds {
+    background-color: black;
+    text-shadow: 1px 1px 14px rgb(118, 118, 118);
+}
+
+.social-breaks-div {
+    /* width:300px; */
+    height: 60px;
+    position: absolute;
+    top: 3040px;
+    left: 580px;
+    background-color: transparent;
+    z-index: 12;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    text-shadow: 1px 1px 8px rgb(65, 65, 65);
+    font-weight: 800;
+
+}
+
+.kitkat-cut-cont {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    top: 2600px;
+    left: 300px;
+    /* transform:rotate(-15deg); */
+    z-index: 2;
+
+
+}
+
+#kitkat-cut-img2 {
+    width: 300px;
+    padding-left: 0px;
+
+}
+
+.animate-me {
+    width: 360px;
+    margin: 0 auto;
+    padding: 40px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 12px;
+    transition: transform 0.7s ease, opacity 0.4s ease;
+    transform: scale(0.1);
+    opacity: 0.1;
+    transform: translate(0, 0);
+
+}
+
+.animate-me.active {
+    transform: scale(1.8);
+    transform: translate(-420px, 280px);
+    opacity: 1;
+}
+
+.overlay-marq {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
